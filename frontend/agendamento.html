@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sistema Agendamento Protótipo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">
+            Home
+          </a>
+    
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Clientes
+            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="cadastrar-cliente.html">
+                Cadastrar Cliente
+              </a>
+              <a class="navbar-item" href="listar-clientes.html">
+                Visualizar Clientes
+              </a>
+            </div>
+          </div>
+    
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Agendamento
+            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="agendamento.html">
+                Agendar Atendimento
+              </a>
+              <a class="navbar-item" href="atendimentos.html">
+                Visualizar Atendimentos
+              </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Produtos e Serviços
+            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="cadastrar-produtos-servicos.html">
+                Cadastrar Produtos e Serviços
+              </a>
+              <a class="navbar-item" href="listar-produtos.html">
+                Visualizar Produtos
+              </a>
+              <a class="navbar-item" href="listar-servicos.html">
+                Visualizar Serviços
+              </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Funcionários
+            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="cadastrar-funcionario.html">
+                Cadastrar Funcionário
+              </a>
+              <a class="navbar-item" href="listar-funcionarios.html">
+                Visualizar Funcionários
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          Agendar Atendimento
+        </h1>
+        <p class="subtitle">
+          Dezembro/2021
+        </p>
+        <div class="columns has-text-centered has-background-light weekday">
+          <div class="column">
+            Segunda
+          </div>
+          <div class="column">
+            Terça
+          </div>
+          <div class="column">
+            Quarta
+          </div>
+          <div class="column">
+            Quinta
+          </div>
+          <div class="column">
+            Sexta
+          </div>
+          <div class="column">
+            Sábado
+          </div>
+          <div class="column">
+            Domingo
+          </div>
+        </div>
+        <div class="columns has-text-centered">
+          <div class="column day">
+            -
+          </div>
+          <div class="column day">
+            -
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">1</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">2</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">3</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">4</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">5</a>
+          </div>
+        </div>
+        <div class="columns has-text-centered">
+          <div class="column day">
+            <a class="link-day-calendar" href="">6</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">7</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">8</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">9</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">10</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">11</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">12</a>
+          </div>
+        </div>
+        <div class="columns has-text-centered">
+          <div class="column day">
+            <a class="link-day-calendar" href="">13</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">14</a>
+          </div>
+          <div class="column day has-background-grey-lighter">
+            <a class="link-day-calendar" href="agendar.html">15</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">16</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">17</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">18</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">19</a>
+          </div>
+        </div>
+        <div class="columns has-text-centered">
+          <div class="column day">
+            <a class="link-day-calendar" href="">20</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">21</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">22</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">23</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">24</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">25</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">26</a>
+          </div>
+        </div>
+        <div class="columns has-text-centered">
+          <div class="column day">
+            <a class="link-day-calendar" href="">27</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">28</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">29</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">30</a>
+          </div>
+          <div class="column day">
+            <a class="link-day-calendar" href="">31</a>
+          </div>
+          <div class="column day">
+            -
+          </div>
+          <div class="column day">
+            -
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

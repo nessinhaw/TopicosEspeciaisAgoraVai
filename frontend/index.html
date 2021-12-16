@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sistema Agendamento Protótipo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">
+            Home
+          </a>
+    
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Clientes
+            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="cadastrar-cliente.html">
+                Cadastrar Cliente
+              </a>
+              <a class="navbar-item" href="listar-clientes.html">
+                Visualizar Clientes
+              </a>
+            </div>
+          </div>
+    
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Agendamento
+            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="agendamento.html">
+                Agendar Atendimento
+              </a>
+              <a class="navbar-item" href="atendimentos.html">
+                Visualizar Atendimentos
+              </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Produtos e Serviços
+            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="cadastrar-produtos-servicos.html">
+                Cadastrar Produtos e Serviços
+              </a>
+              <a class="navbar-item" href="listar-produtos.html">
+                Visualizar Produtos
+              </a>
+              <a class="navbar-item" href="listar-servicos.html">
+                Visualizar Serviços
+              </a>
+            </div>
+          </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Funcionários
+            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="cadastrar-funcionario.html">
+                Cadastrar Funcionário
+              </a>
+              <a class="navbar-item" href="listar-funcionarios.html">
+                Visualizar Funcionários
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          Welcome!
+        </h1>
+        <p class="subtitle">
+          Para testar o layout, nos calendários, utilizem o dia que está em destaque (dia 15).<br/>
+          Esse layout é um protótipo bem cru do que pretendo seguir no trabalho, como irei utilizar Angular ou Vue.js,
+          muitas das funcionalidades não tem como simular num layout somente HTML/CSS, por isso deixei algumas notas em alguns locais onde
+          algumas serão implementadas, bem como notas sobre alguns detalhes que não consegui adicionar a tempo.<br/>
+          Até o produto final de entrega, esse layout ainda será bastante refinado, incluindo escolha de cores e tipografias, 
+          assim como os filtros serão mais diversificados, por falta de tempo, coloquei apenas um exemplo (não-funcional) do filtro mais básico.<br/>
+          Em relação ao index, ainda não sei o que colocar nele, aceito sugestões :D<br/><br/>
+          obs: sim, eu fiz o calendário na mão hehe~ e pretendo torná-lo funcional, quando implementar o Angular ou Vue.js
+          (ainda estou decidindo).
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
